@@ -1,4 +1,4 @@
-from .logger import spellnum
+from .spellnum import spellnum
 
 
 async def setup(bot):
