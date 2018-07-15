@@ -20,7 +20,7 @@ class pun:
         await self.get_pun()
         """Prints Random Puns"""
 
-    async def get_pun(self, ctx):
+    async def get_pun(self):
         async with ClientSession() as session:
             async with session.get(url, headers=headers) as response:
                 onepun = await response.json()
