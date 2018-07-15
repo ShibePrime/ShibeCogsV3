@@ -20,11 +20,11 @@ class pun:
         await self.get_pun()
         """Prints Random Puns"""
 
-    async def get_pun(self):
+    async def get_pun(self, ctx):
         async with ClientSession() as session:
             async with session.get(url, headers=headers) as response:
                 onepun = await response.json()
                 twopun = onepun["pun"]
                 pun = "**" + twopun + "**"
                 em = discord.Embed(title='', description=pun, colour=0x6FA8DC, )
-                await self.bot.say(embed=em)
+                await ctx.send(embed=em)

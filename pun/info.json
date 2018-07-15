@@ -1,8 +1,13 @@
 {
-    "AUTHOR" : "Shibe",
-    "INSTALL_MSG" : "Thanks for installing!",
-    "NAME" : "ShibeCommands",
-    "DESCRIPTION" : "Just shibe things",
-    "REQUIREMENTS" : [],
-    "TAGS": ["facts", "pie", "random", "fun"]
+  "author": [
+    "shibe"
+  ],
+  "description": "This cog allows you to display a random pun from https://pun.andrewmacheret.com/",
+  "short": "show random pun",
+  "tags": [
+    "fun",
+    "pun",
+    "funny"
+  ],
+  "type": "COG"
 }
