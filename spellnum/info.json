@@ -1,8 +1,15 @@
 {
-    "AUTHOR" : "Shibe",
-    "INSTALL_MSG" : "Thanks for installing!",
-    "NAME" : "Spell Number",
-    "DESCRIPTION" : "Convert Numbers to words",
-    "REQUIREMENTS" : ["num2words","word2number"],
-    "TAGS": ["words", "spell", "random", "number"]
+  "author": [
+    "shibe"
+  ],
+  "description": "This cog allows you to convert words to numbers and numbers to words",
+  "short": "Convert Words <-> Numbers",
+  "tags": [
+    "fun",
+    "spellnumber",
+    "covert",
+    "num2words",
+    "word2number"
+  ],
+  "type": "COG"
 }
