@@ -14,11 +14,7 @@ class pollen:
         self.bot = bot
 
     @commands.command(name="pollen")
-    async def pollen(self,zip):
-        await self.get_pollen(zip)
-        """Prints pollen"""
-
-    async def get_pollen(self,ctx, zip):
+    async def pollen(self,ctx, zip):
         async with ClientSession() as session:
             async with session.get(url + str(zip), headers=headers) as response:
                 pollen = await response.json()
