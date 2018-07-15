@@ -8,13 +8,14 @@ headers = {'Content-Type': 'application/json; charset=utf-8','Referer': 'https:/
 
 
 class pollen:
-    """get pollen"""
+    """Get The Pollen Index from pollen.com"""
 
     def __init__(self, bot):
         self.bot = bot
 
     @commands.command(name="pollen")
     async def pollen(self,ctx, zip):
+        """<zip> - Get's the pollen forecast for a zipcode. """
         async with ClientSession() as session:
             async with session.get(url + str(zip), headers=headers) as response:
                 pollen = await response.json()
