@@ -16,7 +16,7 @@ class pun:
         self.bot = bot
 
     @commands.command(name="pun", pass_context=True)
-    async def pun(self, ctx):
+    async def pun(self):
         await self.get_pun()
         """Prints Random Puns"""
 
