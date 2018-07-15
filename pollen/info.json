@@ -1,0 +1,13 @@
+{
+  "author": [
+    "shibe"
+  ],
+  "description": "This cog shows you the pollen index for yesterday today and tomorrow",
+  "short": "Get Pollen Idndex",
+  "tags": [
+    "weather",
+    "pollen",
+    "alergies"
+  ],
+  "type": "COG"
+}
