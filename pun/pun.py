@@ -16,11 +16,7 @@ class pun:
         self.bot = bot
 
     @commands.command(name="pun", pass_context=True)
-    async def pun(self):
-        await self.get_pun()
-        """Prints Random Puns"""
-
-    async def get_pun(self):
+    async def pun(self, ctx):
         async with ClientSession() as session:
             async with session.get(url, headers=headers) as response:
                 onepun = await response.json()
