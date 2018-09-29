@@ -11,7 +11,7 @@ class doge:
 
     def __init__(self, bot):
         self.bot = bot
-        self.base = 'data/doge/'
+        self.base = ''
 
     # --Start Much E-sports Image embeds , Images go in /data/images/
 
@@ -30,13 +30,13 @@ class doge:
     @commands.command(name="piefact", aliases=["piefacts"])
     async def piefact(self, ctx):
         """100 Percent PieFacts"""
-        lines = open('{}/piefacts/piefacts.txt'.format(self.base)).read().splitlines()
+        lines = open('piefacts/piefacts.txt'.format(self.base)).read().splitlines()
         piefact = random.choice(lines)
         await ctx.send(piefact)
 
     @commands.command()
     async def pecker(self, ctx):
         """How-to be safe"""
-        lines = open('{}/pecker/pecker.txt'.format(self.base)).read().splitlines()
+        lines = open('pecker/pecker.txt'.format(self.base)).read().splitlines()
         pecker = random.choice(lines)
         await ctx.send(pecker)
