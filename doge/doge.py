@@ -30,13 +30,13 @@ class doge:
     @commands.command(name="piefact", aliases=["piefacts"])
     async def piefact(self, ctx):
         """100 Percent PieFacts"""
-        lines = open('/home/admini/.local/share/Red-DiscordBot/cogs/CogManager/cogs/doge/piefacts/piefacts.txt'.format(self.base)).read().splitlines()
+        lines = open('/home/admini/.local/share/Red-DiscordBot/cogs/CogManager/cogs/doge/data/piefacts/piefacts.txt'.format(self.base)).read().splitlines()
         piefact = random.choice(lines)
         await ctx.send(piefact)
 
     @commands.command()
     async def pecker(self, ctx):
         """How-to be safe"""
-        lines = open('/home/admini/.local/share/Red-DiscordBot/cogs/CogManager/cogs/doge/pecker/pecker.txt'.format(self.base)).read().splitlines()
+        lines = open('/home/admini/.local/share/Red-DiscordBot/cogs/CogManager/cogs/doge/data/pecker/pecker.txt'.format(self.base)).read().splitlines()
         pecker = random.choice(lines)
         await ctx.send(pecker)
