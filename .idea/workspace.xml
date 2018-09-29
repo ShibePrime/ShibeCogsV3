@@ -46,8 +46,8 @@
       <file leaf-file-name="doge.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/doge/doge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+            <state relative-caret-position="208">
+              <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
               <folding>
                 <element signature="e#38#52#0" expanded="true" />
               </folding>
@@ -291,8 +291,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/doge/doge.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        <state relative-caret-position="208">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding>
             <element signature="e#38#52#0" expanded="true" />
           </folding>

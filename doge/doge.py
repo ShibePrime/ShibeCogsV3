@@ -2,8 +2,6 @@
 import discord
 import random
 from discord.ext import commands
-from redbot.core import Config
-from redbot.core.utils import chat_formatting
 
 __author__ = "shibe "
 
