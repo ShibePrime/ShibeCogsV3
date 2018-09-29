@@ -30,13 +30,13 @@ class doge:
     @commands.command(name="piefact", aliases=["piefacts"])
     async def piefact(self, ctx):
         """100 Percent PieFacts"""
-        lines = open('piefacts/piefacts.txt'.format(self.base)).read().splitlines()
+        lines = open('./piefacts/piefacts.txt'.format(self.base)).read().splitlines()
         piefact = random.choice(lines)
         await ctx.send(piefact)
 
     @commands.command()
     async def pecker(self, ctx):
         """How-to be safe"""
-        lines = open('pecker/pecker.txt'.format(self.base)).read().splitlines()
+        lines = open('./pecker/pecker.txt'.format(self.base)).read().splitlines()
         pecker = random.choice(lines)
         await ctx.send(pecker)
