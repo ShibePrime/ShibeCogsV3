@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa394941-305f-445c-bf0b-178ef7b6205c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/doge/doge.py" afterPath="$PROJECT_DIR$/doge/doge.py" />
-    </list>
+    <list default="true" id="fa394941-305f-445c-bf0b-178ef7b6205c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +44,8 @@
       <file leaf-file-name="doge.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/doge/doge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="296">
+              <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
               <folding>
                 <element signature="e#38#52#0" expanded="true" />
               </folding>
@@ -291,8 +289,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/doge/doge.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        <state relative-caret-position="296">
+          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
           <folding>
             <element signature="e#38#52#0" expanded="true" />
           </folding>
