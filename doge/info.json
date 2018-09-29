@@ -1,0 +1,22 @@
+{
+    "AUTHOR" : "Shibe",
+    "INSTALL_MSG" : "wow",
+    "NAME" : "Doge",
+    "DESCRIPTION" : "Random ThunderDoge things",
+    "REQUIREMENTS" : [],
+    "TAGS": ["random", "thunderdoge", "jokes", "fun"]
+}
+
+{
+  "author": [
+    "shibe"
+  ],
+  "description": "This cog is ThunderDoge specific",
+  "short": "doge",
+  "tags": [
+    "fun",
+    "piefact",
+    "funny"
+  ],
+  "type": "COG"
+}
